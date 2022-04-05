@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class EnterPage extends StatelessWidget{
-  const EnterPage({Key? key}): super(key: key);
+class NewPassPage extends StatelessWidget{
+  const NewPassPage({Key? key}): super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class EnterPage extends StatelessWidget{
                     child:Wrap(
                       alignment: WrapAlignment.center,
                       children: const<Widget>[
-                      Text('Login ',
+                      Text('New Password',
                         style: TextStyle(color: Color.fromRGBO(124, 125, 126, 1.0),
                         fontSize: 30.0),
                         ),
@@ -34,11 +34,13 @@ class EnterPage extends StatelessWidget{
                   Wrap(
                     alignment: WrapAlignment.center,
                     children: const<Widget>[
-                      Text('Add your details to login',
+                      Text('Please enter your email to receive a\nlink to  create a new password via email',
+                      textAlign: TextAlign.center,
                       style: TextStyle(color: Color.fromRGBO(124, 125, 126, 1.0)),
                     )
                   ],
                   ),
+                  
                   const SizedBox(height: 30.0,),
                   Container(
                     width: double.infinity,
@@ -53,37 +55,36 @@ class EnterPage extends StatelessWidget{
                         keyboardType: TextInputType.text,  
                         decoration: const InputDecoration( 
                           border: InputBorder.none, 
-                            labelText: '          Your Email',
-                            labelStyle: TextStyle(
-                              color:  Color.fromRGBO(182, 183, 183, 1.0)
-                            )
-                        ),
-                    ),
-                  ),
-                  const SizedBox(height: 30.0,),
-                  Container(
-                    width: double.infinity,
-                    height: 55.0,
-                    margin: const EdgeInsets.only(left: 40.0, right:40.0 ),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(30),
-                      color: const Color.fromRGBO(242, 242, 242, 1.0)
-                    ),
-                    child:TextFormField(
-                      obscureText: true,
-                        keyboardType: TextInputType.text,  
-                        decoration: const InputDecoration( 
-                          border: InputBorder.none, 
-                            labelText: '          Password',
+                            labelText: '          New Password',
                             labelStyle: TextStyle(
                               color:  Color.fromRGBO(182, 183, 183, 1.0)
                             )  
                         ),
                     ),
                   ),
-
-                  
                   const SizedBox(height: 30.0,),
+                  Container(
+                    width: double.infinity,
+                    height: 55.0,
+                    margin: const EdgeInsets.only(left: 40.0, right:40.0 ),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      color: const Color.fromRGBO(242, 242, 242, 1.0)
+                    ),
+                    child:TextFormField(
+                      obscureText: true,
+                        keyboardType: TextInputType.text,  
+                        decoration: const InputDecoration( 
+                          border: InputBorder.none, 
+                            labelText: '          Confirm Password',
+                            labelStyle: TextStyle(
+                              color:  Color.fromRGBO(182, 183, 183, 1.0)
+                            )  
+                        ),
+                    ),
+                  ),
+                  const SizedBox(height: 30.0,),
+                  
                   Container(
                     width: double.infinity,
                     height: 55.0,
@@ -94,7 +95,7 @@ class EnterPage extends StatelessWidget{
                     ),
                     child:const TextButton(
                       onPressed: null,
-                      child: Text('Login',
+                      child: Text('Next',
                         style: TextStyle(
                            fontSize: 18,
                             color: Colors.white,
@@ -103,80 +104,7 @@ class EnterPage extends StatelessWidget{
                       ),
                     ),
                   ),
-                
-                   const SizedBox(height: 30.0,),
-                  Wrap(
-                    alignment: WrapAlignment.center,
-                    children: const<Widget>[
-                      Text('Forgot your password?',
-                      style: TextStyle(color: Color.fromRGBO(124, 125, 126, 1.0)),
-                    )
-                  ],
-                  ),
                   
-                  
-                  const SizedBox(height: 50.0,),
-                  Wrap(
-                    alignment: WrapAlignment.center,
-                    children: const<Widget>[
-                      Text('or Login With',
-                      style: TextStyle(color: Color.fromRGBO(124, 125, 126, 1.0)),
-                    )
-                  ],
-                  ),
-                  const SizedBox(height: 30.0,),
-                  Container(
-                    width: double.infinity,
-                    height: 55.0,
-                    margin: const EdgeInsets.only(left: 40.0, right:40.0 ),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(30),
-                      color: const Color.fromRGBO(54, 127, 192, 1.0)
-                    ),
-                    child: TextButton.icon(
-                      icon: const Icon(Icons.facebook,color: Colors.white,), 
-                      onPressed: null, 
-                      label: const Text('Login with Facebook',
-                        style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                        ),
-                    )
-                    ),
-                  ),
-
-                  const SizedBox(height: 30.0,),
-                  Container(
-                    width: double.infinity,
-                    height: 55.0,
-                    margin: const EdgeInsets.only(left: 40.0, right:40.0 ),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(30),
-                      color: const Color.fromRGBO(221, 75, 57, 1.0)
-                    ),
-                    child: TextButton.icon(
-                      icon: const Icon(Icons.mail, color: Colors.white,), 
-                      onPressed: null, 
-                      label: const Text('Login with Google',
-                        style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                        ),
-                    )
-                    ),
-                  ),
-                  const SizedBox(height: 30.0,),
-                  Wrap(
-                    alignment: WrapAlignment.center,
-                    children: const<Widget>[
-                      Text("Don't have an Account?",
-                      style: TextStyle(color: Color.fromRGBO(124, 125, 126, 1.0)),
-                    ),
-                    Text(' Sign Up',
-                      style: TextStyle(color:  Color.fromRGBO(252, 96, 17, 1.0)),
-                    )  
-                  ],
-                  ),
 
                   ],
                 ),
