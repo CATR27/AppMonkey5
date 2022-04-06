@@ -6,6 +6,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:appmonkey/src/pages/signup_page.dart';
 import '../pages/carrusel1.dart';
 import '../pages/carrusel2.dart';
+import '../pages/carrusel3.dart';
 import '../pages/newpassword.dart';
 import '../pages/resetpassword.dart';
 import '../pages/verification_page.dart';
@@ -30,4 +31,7 @@ final routes=<String, WidgetBuilder>{
 ///////////////Ortega Camacho Javier Abraham///////////////
 '/carrusel1': (BuildContext context) => const Carrusel1(),
   '/carrusel2': (BuildContext context) => const Carrusel2(),
+
+  ///////////////Perez Mendez Jesus Arturo///////////////
+'/carrusel3': (BuildContext context) => const Carrusel3Page(),
 };
