@@ -30,6 +30,7 @@ class HomePage extends StatelessWidget {
                 Image.asset('lib/src/img/Monkey_face.png')
               ],
             ),
+
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -51,6 +52,8 @@ class HomePage extends StatelessWidget {
                 ),
               ],
             ),
+
+            
             const SizedBox(width: 5.0,),
             const Text('FOOD DELIVERY'),
           ],

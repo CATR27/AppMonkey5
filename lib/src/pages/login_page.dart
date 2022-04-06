@@ -44,16 +44,16 @@ class LoginPage extends StatelessWidget {
               child: Column(
                 children:  <Widget>[
                   Container(
-                    margin: const EdgeInsets.only(top:140.0),
+                    margin: const EdgeInsets.only(top:139.0),
                     child:Wrap(
                       alignment: WrapAlignment.center,
                       children: const<Widget>[
                       Text('Discover the best foods from over 1,000',
-                        style: TextStyle(color: Color.fromRGBO(124, 125, 126, 1.0)),
+                        style: TextStyle(color: Color.fromARGB(255, 118, 120, 121)),
                         ),
                       SizedBox(height: 25.0,),
                       Text('restaurants and fast delivery to doorstep',
-                        style: TextStyle(color: Color.fromRGBO(124, 125, 126, 1.0)),
+                        style: TextStyle(color: Color.fromARGB(255, 120, 121, 122)),
                       )
                     ],
                   )
@@ -69,7 +69,7 @@ class LoginPage extends StatelessWidget {
                          )
                            ),
                     backgroundColor: MaterialStateProperty.all(
-                        Color.fromARGB(255, 255, 100, 29)),
+                        Color.fromARGB(255, 250, 100, 31)),
                     padding: MaterialStateProperty.all(
                         const EdgeInsets.symmetric(
                             horizontal: 130, vertical: 18)),
@@ -77,14 +77,8 @@ class LoginPage extends StatelessWidget {
                         const TextStyle(fontSize: 18))),
                 child: const Text('Login'),
                 onPressed: () {
-                /*  final route = MaterialPageRoute(
-                    builder: (context) => const SecondPage(),
-                    
-                  );*/
                   Navigator.pushNamed(context,'/log');
                 }),
-                  
-
                   const SizedBox(height: 15.0,),
                  
 
@@ -106,10 +100,7 @@ class LoginPage extends StatelessWidget {
                         const TextStyle(fontSize: 18))),
                 child: const Text('Create Acount'),
                 onPressed: () {
-                /*  final route = MaterialPageRoute(
-                    builder: (context) => const SecondPage(),
-                    
-                  );*/
+              
                   Navigator.pushNamed(context,'/signup');
               }),
 

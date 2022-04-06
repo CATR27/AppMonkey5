@@ -1,7 +1,4 @@
-//import 'dart:ffi';
-
 import 'package:flutter/material.dart';
-
 class EnterPage extends StatelessWidget{
   const EnterPage({Key? key}): super(key: key);
 
@@ -30,51 +27,57 @@ class EnterPage extends StatelessWidget{
                     ],
                   )
                   ),
+
+
                   const SizedBox(height: 30.0,),
                   Wrap(
                     alignment: WrapAlignment.center,
                     children: const<Widget>[
                       Text('Add your details to login',
-                      style: TextStyle(color: Color.fromRGBO(124, 125, 126, 1.0)),
+                      style: TextStyle(color: Color.fromARGB(255, 127, 128, 129)),
                     )
                   ],
                   ),
                   const SizedBox(height: 30.0,),
+
+
                   Container(
                     width: double.infinity,
                     height: 55.0,
                     margin: const EdgeInsets.only(left: 40.0, right:40.0 ),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: const Color.fromRGBO(242, 242, 242, 1.0)
+                      color: Color.fromARGB(255, 255, 255, 255)
                     ),
                     child:TextFormField(
                       obscureText: true,
                         keyboardType: TextInputType.text,  
                         decoration: const InputDecoration( 
                           border: InputBorder.none, 
-                            labelText: '          Your Email',
+                            labelText: 'Your Email',
                             labelStyle: TextStyle(
-                              color:  Color.fromRGBO(182, 183, 183, 1.0)
+                              color:  Color.fromARGB(255, 211, 211, 211)
                             )
                         ),
                     ),
                   ),
+
                   const SizedBox(height: 30.0,),
                   Container(
+
                     width: double.infinity,
-                    height: 55.0,
+                    height: 56.0,
                     margin: const EdgeInsets.only(left: 40.0, right:40.0 ),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: const Color.fromRGBO(242, 242, 242, 1.0)
+                      color: Color.fromARGB(255, 238, 238, 238)
                     ),
                     child:TextFormField(
                       obscureText: true,
                         keyboardType: TextInputType.text,  
                         decoration: const InputDecoration( 
                           border: InputBorder.none, 
-                            labelText: '          Password',
+                            labelText: 'Password',
                             labelStyle: TextStyle(
                               color:  Color.fromRGBO(182, 183, 183, 1.0)
                             )  
@@ -96,9 +99,8 @@ class EnterPage extends StatelessWidget{
                       onPressed: null,
                       child: Text('Login',
                         style: TextStyle(
-                           fontSize: 18,
+                           fontSize: 19,
                             color: Colors.white,
-                            //fontWeight: FontWeight.bold
                          ),
                       ),
                     ),
@@ -124,14 +126,16 @@ class EnterPage extends StatelessWidget{
                     )
                   ],
                   ),
+
                   const SizedBox(height: 30.0,),
                   Container(
+
                     width: double.infinity,
                     height: 55.0,
                     margin: const EdgeInsets.only(left: 40.0, right:40.0 ),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: const Color.fromRGBO(54, 127, 192, 1.0)
+                      color: Color.fromARGB(255, 50, 126, 192)
                     ),
                     child: TextButton.icon(
                       icon: const Icon(Icons.facebook,color: Colors.white,), 
@@ -152,7 +156,7 @@ class EnterPage extends StatelessWidget{
                     margin: const EdgeInsets.only(left: 40.0, right:40.0 ),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: const Color.fromRGBO(221, 75, 57, 1.0)
+                      color: Color.fromARGB(255, 216, 73, 54)
                     ),
                     child: TextButton.icon(
                       icon: const Icon(Icons.mail, color: Colors.white,), 
@@ -165,6 +169,7 @@ class EnterPage extends StatelessWidget{
                     )
                     ),
                   ),
+                  
                   const SizedBox(height: 30.0,),
                   Wrap(
                     alignment: WrapAlignment.center,
@@ -173,7 +178,7 @@ class EnterPage extends StatelessWidget{
                       style: TextStyle(color: Color.fromRGBO(124, 125, 126, 1.0)),
                     ),
                     Text(' Sign Up',
-                      style: TextStyle(color:  Color.fromRGBO(252, 96, 17, 1.0)),
+                      style: TextStyle(color:  Color.fromARGB(255, 252, 96, 18)),
                     )  
                   ],
                   ),
