@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class Carrusel3Page extends StatelessWidget{
-  const Carrusel3Page({Key? key}): super(key: key);
+class Carrusel3 extends StatelessWidget{
+  const Carrusel3({Key? key}): super(key: key);
 
   @override
   Widget build(BuildContext context) {
