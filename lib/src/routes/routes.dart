@@ -1,3 +1,4 @@
+import 'package:appmonkey/src/pages/Thankyou.dart';
 import 'package:flutter/material.dart';
 import 'package:appmonkey/src/pages/login_page.dart';
 import 'package:appmonkey/src/pages/log_page.dart';
@@ -19,27 +20,28 @@ import '../pages/verification_page.dart';
 
 final routes=<String, WidgetBuilder>{
   ////////Trejo Ramirez Carlos Adrian//////
-  '/': (BuildContext context)=> const HomePage(),
-  '/login': (BuildContext context) => const LoginPage(),
-  '/log': (BuildContext context) => const EnterPage(),
-  '/signup': (BuildContext context) => const SignuPage(),
+  /*1*/'/': (BuildContext context)=> const HomePage(),
+  /*2*/'/login': (BuildContext context) => const LoginPage(),
+  /*3*/'/log': (BuildContext context) => const EnterPage(),
+  /*4*/'/signup': (BuildContext context) => const SignuPage(),
 
-  '/latest': (BuildContext context) => const Latest_Offers(),
-  '/desert': (BuildContext context) => const Desserts(),
-  '/profile': (BuildContext context) => const Profile(),
 ////////////////////////////////////////////////////////////
 
 /////////Gutierrez Rabanales Edgardo //////////////////////
-  '/resetP': (BuildContext context) => const ResetPage(),
-  '/verif': (BuildContext context) => const VerificationPage(),
-  '/newpass': (BuildContext context) => const NewPassPage(),
+  /*5*/'/resetP': (BuildContext context) => const ResetPage(),
+  /*6*/'/verif': (BuildContext context) => const VerificationPage(),
+  /*7*/'/newpass': (BuildContext context) => const NewPassPage(),
 ///////////////////////////////////////////////////////////
 
 ///////////////Ortega Camacho Javier Abraham///////////////
-'/carrusel1': (BuildContext context) => const Carrusel1(),
-  '/carrusel2': (BuildContext context) => const Carrusel2(),
+  /*8*/'/carrusel1': (BuildContext context) => const Carrusel1(),
+  /*9*/'/carrusel2': (BuildContext context) => const Carrusel2(),
+  /*15*/'/latest': (BuildContext context) => const Latest_Offers(),
+  /*27*/'/Thankyou': (BuildContext context) => const Thankyou(),
 
   ///////////////Perez Mendez Jesus Arturo///////////////
-'/carrusel3': (BuildContext context) => const Carrusel3(),
+  /*10*/'/carrusel3': (BuildContext context) => const Carrusel3(),
+ /*13*/'/desert': (BuildContext context) => const Desserts(),
+ /*16*/'/profile': (BuildContext context) => const Profile(),
 /////////////////////////////////////////////////////////
 };

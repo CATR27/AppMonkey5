@@ -80,6 +80,7 @@ flutter:
     - lib/src/img/Componente8.png
     - lib/src/img/Star.png
     - lib/src/img/user.jpeg
+    - lib/src/img/Billetera.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
