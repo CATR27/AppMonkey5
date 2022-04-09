@@ -81,6 +81,8 @@ flutter:
     - lib/src/img/Star.png
     - lib/src/img/user.jpeg
     - lib/src/img/Billetera.png
+    - lib/src/img/Elipse_30.png
+    - lib/src/img/money.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

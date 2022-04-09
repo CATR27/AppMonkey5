@@ -1,4 +1,5 @@
 import 'package:appmonkey/src/pages/Thankyou.dart';
+import 'package:appmonkey/src/pages/more.dart';
 import 'package:flutter/material.dart';
 import 'package:appmonkey/src/pages/login_page.dart';
 import 'package:appmonkey/src/pages/log_page.dart';
@@ -25,6 +26,7 @@ final routes=<String, WidgetBuilder>{
   /*3*/'/log': (BuildContext context) => const EnterPage(),
   /*4*/'/signup': (BuildContext context) => const SignuPage(),
 
+
 ////////////////////////////////////////////////////////////
 
 /////////Gutierrez Rabanales Edgardo //////////////////////
@@ -43,5 +45,6 @@ final routes=<String, WidgetBuilder>{
   /*10*/'/carrusel3': (BuildContext context) => const Carrusel3(),
  /*13*/'/desert': (BuildContext context) => const Desserts(),
  /*16*/'/profile': (BuildContext context) => const Profile(),
+ /*17*/'/mores': (BuildContext context) => const Mores(),
 /////////////////////////////////////////////////////////
 };
