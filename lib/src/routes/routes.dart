@@ -1,4 +1,5 @@
 import 'package:appmonkey/src/pages/Thankyou.dart';
+import 'package:appmonkey/src/pages/aboutUs.dart';
 import 'package:appmonkey/src/pages/more.dart';
 import 'package:appmonkey/src/pages/notifications.dart';
 import 'package:flutter/material.dart';
@@ -38,6 +39,7 @@ final routes=<String, WidgetBuilder>{
   /*6*/'/verif': (BuildContext context) => const VerificationPage(),
   /*7*/'/newpass': (BuildContext context) => const NewPassPage(),
   /*25*/'/addcredit2': (BuildContext context) => const addcredit1(),
+  /*21*/'/about': (BuildContext context) => const About_Us(),
 ///////////////////////////////////////////////////////////
 
 ///////////////Ortega Camacho Javier Abraham///////////////
