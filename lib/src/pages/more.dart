@@ -51,75 +51,30 @@ class Mores extends StatelessWidget{
                         margin: const EdgeInsets.only(left: 20.0, right:20.0 ),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5),
-                          color:Color.fromARGB(255, 231, 231, 231),
+                          color:Color.fromARGB(247, 247, 247, 247),
                            image: const DecorationImage(
-                            image: AssetImage("lib/src/img/Elipse_30.png"),
+                            image: AssetImage("lib/src/img/Paymentdetails.png"),
                                alignment: Alignment.centerLeft,
+                             
                                
-                          ),
-                        ),
-                        child:const TextButton(
-                          onPressed: null,
-                          child: Text('Payment details',
-                           textAlign: TextAlign.left,
-                            style: TextStyle(
-                               fontSize: 18,
-                                color: Color.fromARGB(255, 153, 153, 153),
-                             ),
                           ),
                         ),
                       ),
                       const SizedBox(height: 25.0,),
 
                       
-                       Container(
+                      Container(
                         width: double.infinity,
                         height: 75.0,
                         margin: const EdgeInsets.only(left: 20.0, right:20.0 ),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5),
-                          color:Color.fromARGB(255, 231, 231, 231),
+                          color:Color.fromARGB(247, 247, 247, 247),
                            image: const DecorationImage(
-                            image: AssetImage("lib/src/img/Elipse_30.png"),
+                            image: AssetImage("lib/src/img/My_orders.png"),
                                alignment: Alignment.centerLeft,
+                             
                                
-                          ),
-                        ),
-                        child:const TextButton(
-                          onPressed: null,
-                          child: Text('My orders',
-                           textAlign: TextAlign.left,
-                            style: TextStyle(
-                               fontSize: 18,
-                                color: Color.fromARGB(255, 153, 153, 153),
-                             ),
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 25.0,),
-
-
-                       Container(
-                        width: double.infinity,
-                        height: 75.0,
-                        margin: const EdgeInsets.only(left: 20.0, right:20.0 ),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(5),
-                          color:Color.fromARGB(255, 231, 231, 231),
-                           image: const DecorationImage(
-                            image: AssetImage("lib/src/img/Elipse_30.png"),
-                               alignment: Alignment.centerLeft,
-                               
-                          ),
-                        ),
-                        child:const TextButton(
-                          onPressed: null,
-                          child: Text('Notifications',
-                           textAlign: TextAlign.left,
-                            style: TextStyle(
-                               fontSize: 18,
-                                color: Color.fromARGB(255, 153, 153, 153),
-                             ),
                           ),
                         ),
                       ),
@@ -131,52 +86,51 @@ class Mores extends StatelessWidget{
                         margin: const EdgeInsets.only(left: 20.0, right:20.0 ),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5),
-                          color:Color.fromARGB(255, 231, 231, 231),
+                          color:Color.fromARGB(247, 247, 247, 247),
                            image: const DecorationImage(
-                            image: AssetImage("lib/src/img/Elipse_30.png"),
+                            image: AssetImage("lib/src/img/Notifications.png"),
                                alignment: Alignment.centerLeft,
+                             
                                
-                          ),
-                        ),
-                        child:const TextButton(
-                          onPressed: null,
-                          child: Text('Inbox',
-                           textAlign: TextAlign.left,
-                            style: TextStyle(
-                               fontSize: 18,
-                                color: Color.fromARGB(255, 153, 153, 153),
-                             ),
                           ),
                         ),
                       ),
                       const SizedBox(height: 25.0,),
 
-                       Container(
+                        Container(
                         width: double.infinity,
                         height: 75.0,
                         margin: const EdgeInsets.only(left: 20.0, right:20.0 ),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5),
-                          color:Color.fromARGB(255, 231, 231, 231),
+                          color:Color.fromARGB(247, 247, 247, 247),
                            image: const DecorationImage(
-                            image: AssetImage("lib/src/img/Elipse_30.png"),
+                            image: AssetImage("lib/src/img/Inbox.png"),
                                alignment: Alignment.centerLeft,
+                             
                                
-                          ),
-                        ),
-                        child:const TextButton(
-                          onPressed: null,
-                          child: Text('About Us',
-                           textAlign: TextAlign.left,
-                            style: TextStyle(
-                               fontSize: 18,
-                                color: Color.fromARGB(255, 153, 153, 153),
-                             ),
                           ),
                         ),
                       ),
                       const SizedBox(height: 25.0,),
-                     
+
+                        Container(
+                        width: double.infinity,
+                        height: 75.0,
+                        margin: const EdgeInsets.only(left: 20.0, right:20.0 ),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(5),
+                          color:Color.fromARGB(247, 247, 247, 247),
+                           image: const DecorationImage(
+                            image: AssetImage("lib/src/img/About_us.png"),
+                               alignment: Alignment.centerLeft,
+                             
+                               
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 25.0,),
+
 
 
                       
