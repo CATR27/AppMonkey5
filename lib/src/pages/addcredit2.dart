@@ -64,7 +64,7 @@ class addcredit2 extends StatelessWidget{
                             keyboardType: TextInputType.text,  
                             decoration: const InputDecoration( 
                               border: InputBorder.none, 
-                                labelText: '          CardNumber',
+                                labelText: '           CardNumber',
                                 labelStyle: TextStyle(
                                   color:  Color.fromRGBO(182, 183, 183, 1.0)
                                 )  
@@ -78,7 +78,7 @@ class addcredit2 extends StatelessWidget{
                        children: <Widget>[
                 Container(
                   alignment: Alignment.topLeft,
-                  child: const Text('Expiry',
+                  child: const Text(' Expiry',
                   style: TextStyle(
                      fontWeight: FontWeight.bold,
                     color: Color.fromARGB(255, 128, 129, 129),
@@ -100,7 +100,7 @@ class addcredit2 extends StatelessWidget{
                             keyboardType: TextInputType.emailAddress,  
                             decoration: const InputDecoration( 
                               border: InputBorder.none, 
-                                labelText: '          MM',
+                                labelText: '         MM',
                                 labelStyle: TextStyle(
                                   color:  Color.fromRGBO(182, 183, 183, 1.0)
                                 )  
@@ -123,7 +123,7 @@ class addcredit2 extends StatelessWidget{
                             keyboardType: TextInputType.number,  
                             decoration: const InputDecoration( 
                               border: InputBorder.none, 
-                                labelText: '          YY',
+                                labelText: '         YY',
                                 labelStyle: TextStyle(
                                   color:  Color.fromRGBO(182, 183, 183, 1.0)
                                 )  
@@ -146,7 +146,7 @@ class addcredit2 extends StatelessWidget{
                             keyboardType: TextInputType.text,  
                             decoration: const InputDecoration( 
                               border: InputBorder.none, 
-                                labelText: '          Security Code',
+                                labelText: '         Security Code',
                                 labelStyle: TextStyle(
                                   color:  Color.fromRGBO(182, 183, 183, 1.0)
                                 )  
