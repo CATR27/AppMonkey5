@@ -28,7 +28,7 @@ class Carrusel3 extends StatelessWidget{
                             children: <Widget>[
                               Image.asset(
                                 'lib/src/img/Live_tracking_vector.png',
-                                width: 224.00,
+                                width: 225.00,
                                 height: 295.00,
                               ),
                             ],
