@@ -212,7 +212,7 @@ class Desserts extends StatelessWidget {
                       margin: const EdgeInsets.only(top:160.0, left: 5),
                     ),
                     Container(
-                      child: const Text('Minute by tuk tuk     Desserts',
+                      child: const Text('Minute by tuk tuk      Desserts',
                       style: TextStyle(
                         color: Colors.white
                       ),
