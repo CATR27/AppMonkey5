@@ -35,6 +35,7 @@ final routes=<String, WidgetBuilder>{
   /*5*/'/resetP': (BuildContext context) => const ResetPage(),
   /*6*/'/verif': (BuildContext context) => const VerificationPage(),
   /*7*/'/newpass': (BuildContext context) => const NewPassPage(),
+  /*25*/'/addcredit2': (BuildContext context) => const addcredit1(),
 ///////////////////////////////////////////////////////////
 
 ///////////////Ortega Camacho Javier Abraham///////////////
