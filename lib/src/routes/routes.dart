@@ -6,6 +6,7 @@ import 'package:appmonkey/src/pages/log_page.dart';
 import 'package:appmonkey/src/pages/home_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:appmonkey/src/pages/signup_page.dart';
+import '../pages/addcredit.dart';
 import '../pages/carrusel1.dart';
 import '../pages/carrusel2.dart';
 import '../pages/carrusel3.dart';
@@ -25,6 +26,7 @@ final routes=<String, WidgetBuilder>{
   /*2*/'/login': (BuildContext context) => const LoginPage(),
   /*3*/'/log': (BuildContext context) => const EnterPage(),
   /*4*/'/signup': (BuildContext context) => const SignuPage(),
+ /*19*/'/addcredit1': (BuildContext context) => const addcredit1(),
 
 
 ////////////////////////////////////////////////////////////
