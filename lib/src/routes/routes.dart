@@ -1,5 +1,6 @@
 import 'package:appmonkey/src/pages/Thankyou.dart';
 import 'package:appmonkey/src/pages/more.dart';
+import 'package:appmonkey/src/pages/notifications.dart';
 import 'package:flutter/material.dart';
 import 'package:appmonkey/src/pages/login_page.dart';
 import 'package:appmonkey/src/pages/log_page.dart';
@@ -27,6 +28,7 @@ final routes=<String, WidgetBuilder>{
   /*3*/'/log': (BuildContext context) => const EnterPage(),
   /*4*/'/signup': (BuildContext context) => const SignuPage(),
  /*19*/'/addcredit1': (BuildContext context) => const addcredit1(),
+ /*20*/'/notification': (BuildContext context) => const Notifications(),
 
 
 ////////////////////////////////////////////////////////////

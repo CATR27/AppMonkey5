@@ -89,6 +89,7 @@ flutter:
     - lib/src/img/Notifications.png
     - lib/src/img/Inbox.png
     - lib/src/img/About_us.png
+    - lib/src/img/punto.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
