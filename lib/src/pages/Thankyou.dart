@@ -26,7 +26,7 @@ class Thankyou extends StatelessWidget{
                             children: <Widget>[
                               Image.asset(
                                 'lib/src/img/Billetera.png',
-                                width: 227.00,
+                                width: 228.00,
                                 height: 293.00,
                               ),
                             ],
