@@ -53,7 +53,7 @@ class NewPassPage extends StatelessWidget{
                         keyboardType: TextInputType.text,  
                         decoration: const InputDecoration( 
                           border: InputBorder.none, 
-                            labelText: '          New Password',
+                            labelText: '           New Password',
                             labelStyle: TextStyle(
                               color:  Color.fromRGBO(182, 183, 183, 1.0)
                             )  
@@ -74,7 +74,7 @@ class NewPassPage extends StatelessWidget{
                         keyboardType: TextInputType.text,  
                         decoration: const InputDecoration( 
                           border: InputBorder.none, 
-                            labelText: '          Confirm Password',
+                            labelText: '           Confirm Password',
                             labelStyle: TextStyle(
                               color:  Color.fromRGBO(182, 183, 183, 1.0)
                             )  
