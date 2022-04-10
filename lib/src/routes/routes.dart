@@ -1,5 +1,6 @@
 import 'package:appmonkey/src/pages/Thankyou.dart';
 import 'package:appmonkey/src/pages/aboutUs.dart';
+import 'package:appmonkey/src/pages/inbox.dart';
 import 'package:appmonkey/src/pages/more.dart';
 import 'package:appmonkey/src/pages/notifications.dart';
 import 'package:flutter/material.dart';
@@ -47,6 +48,7 @@ final routes=<String, WidgetBuilder>{
   /*9*/'/carrusel2': (BuildContext context) => const Carrusel2(),
   /*15*/'/latest': (BuildContext context) => const Latest_Offers(),
   /*27*/'/Thankyou': (BuildContext context) => const Thankyou(),
+   /*22*/'/inbocs': (BuildContext context) => const Inbocs(),
 
   ///////////////Perez Mendez Jesus Arturo///////////////
   /*10*/'/carrusel3': (BuildContext context) => const Carrusel3(),
